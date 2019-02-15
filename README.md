@@ -23,7 +23,7 @@ As this guide is intended for first time PHP users, you may not be able to follo
 
 There are generally 2 ways you can go about installing PHP on your machine. You can install PHP directly or you can install a pre-packaged stack of technologies which can prove to be easier and will help prepare you for developing more robust applications down the line. I recommend installing the stack.
 
-1. Installing PHP as part of a stack (recommended)
+#### Installing PHP as part of a stack (recommended)
 
 When you first began researching PHP, you may have seen one of these following acronyms before: **LAMP**, **WAMP**, **MAMP**
 In all three of these, the AMP stands for Apache, MySQL, and PHP. If you are unfamiliar, Apache is a web server software, MySQL is a database software. They are a vital part of many professional software stacks.
@@ -43,6 +43,6 @@ The first letter in the acronym's listed above refer to the operating system tha
 - Handy Guide: https://www.taniarascia.com/local-environment/
 
 
-2. Installing PHP on it's own
+#### Installing PHP on it's own
  
 If you are not interested in setting up the stack, you can begin a manual installation process and follow guides at the following url from PHP's official website  http://php.net/manual/en/install.php
