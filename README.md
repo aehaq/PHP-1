@@ -42,7 +42,22 @@ The first letter in the acronym's listed above refer to the operating system tha
 - Download Link: https://www.mamp.info/en/downloads/
 - Handy Guide: https://www.taniarascia.com/local-environment/
 
-
-#### Installing PHP on it's own
+#### Installing PHP on its own
  
 If you are not interested in setting up the stack, you can begin a manual installation process and follow guides at the following url from PHP's official website  http://php.net/manual/en/install.php
+
+### How do I get my CLI to recognize PHP commands?
+
+If you are having trouble running PHP commands, and are receiving messages stating that those commands are not recognized, the most likely problem is that php has not been added to your Path yet. A quick way to check this is to type and execute the `php -v` command. If php is being properly recognized, this will display information about the version of php in use. If not, you will have to update the Path Environment Variable so that it points to the folder containing the executable for the version of php you would like to use.
+
+Note that the process for updating Environment Variables will differ depending on your OS, and the location of the PHP executable will depend on your installation method. Search online for solutions specific to those two issues.
+
+### Other Resources
+
+If you run into additional errors, please feel free to mention them in the issues tab for this project. I can update this readme with links specific to common issues that have not been covered.
+
+## Credit: 
+
+This exercise was based off of a short Quora page I found detailing the basics of a PHP web application. This guide was created to offer a better introduction of what I found to be a good first overview of the basics of PHP.
+
+Link to web application that inspired this tutorial: https://www.quora.com/What-are-the-steps-of-creating-a-PHP-web-application
